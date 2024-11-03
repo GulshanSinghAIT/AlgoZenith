@@ -45,7 +45,7 @@ const ChapterLayout = () => {
             Learning Material
           </button>
         </div>
-        <button className="px-4 text-sm lg:text-base py-2 flex gap-2 items-center border-[#99E4FF] border-[1.5px] rounded-md"><img className='w-4' src={info} alt="" />How it works</button>
+        <button className="px-4 hidden text-sm lg:text-base py-2 md:flex gap-2 items-center border-[#99E4FF] border-[1.5px] rounded-md"><img className='w-4' src={info} alt="" />How it works</button>
       </div>
         <hr />
 
