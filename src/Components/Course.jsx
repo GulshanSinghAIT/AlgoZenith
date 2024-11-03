@@ -20,7 +20,7 @@ const CourseSection = ({ completedPercentage , id , items }) => {
       {" "}
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-col lg:flex-row justify-between  items-center p-4  rounded-lg relative cursor-pointer"
+        className="flex flex-col lg:flex-row justify-between  items-center p-4 overflow-hidden rounded-lg relative cursor-pointer"
       >
         <div className="w-full  pb-3 ">
           <div className="flex">
@@ -43,7 +43,7 @@ const CourseSection = ({ completedPercentage , id , items }) => {
           {" "}
           {/* Positioned at the bottom */}
           <div
-            className="bg-[#384A68] h-1.5 rounded-b-lg transition-all duration-300"
+            className="bg-[#384A68] h-1.5  transition-all duration-300"
             style={{ width: getProgressWidth() }}
           ></div>
         </div>

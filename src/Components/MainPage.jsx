@@ -90,7 +90,7 @@ const MainPage = () => {
       </aside>
 
    
-      <main className="flex-1  relative  p-6 ">
+      <main className="flex-1  relative  md:p-6 ">
         
         <header className="flex justify-between  relative md:justify-end items-center mb-2">
           <aside className="block md:hidden  py-3 relative">
