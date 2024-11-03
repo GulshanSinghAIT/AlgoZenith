@@ -13,7 +13,7 @@ const MainPage = () => {
   const [activeMenu, setActiveMenu] = useState("Upskill");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <div className="flex p-2 lg:p-6  xl:px-10">
+    <div className="flex p-2 lg:p-6 bg-gradient-to-t from-[#F1FBFF] h-screen to-[#fff]  xl:px-10">
       <aside className="hidden md:block w-44 lg:w-60 p-6">
         <h2 className="text-2xl font-bold flex lg:gap-4 gap-2 text-gray-800 items-center mb-8">
           <img className="w-4 h-4 mt-1" src={menu} alt="" />
