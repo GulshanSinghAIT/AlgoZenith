@@ -55,9 +55,9 @@ const ChapterLayout = () => {
       <hr />
 
       <div className="flex flex-col md:flex-row py-8 gap-5 xl:gap-9">
-        {/* Sidebar for Chapters */}
+        
         <div className="md:w-1/4 w-full text-sm xl:text-base">
-          {/* Mobile Dropdown for Chapters */}
+         
           <div className="md:hidden mb-4">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -85,7 +85,7 @@ const ChapterLayout = () => {
             )}
           </div>
 
-          {/* Desktop List for Chapters */}
+  
           <div className="hidden md:block">
             {chapters.map((chapter) => (
               <div

@@ -89,17 +89,17 @@ const MainPage = () => {
         </ul>
       </aside>
 
-   
       <main className="flex-1  relative  md:p-6 ">
-        
         <header className="flex justify-between  relative md:justify-end items-center mb-2">
           <aside className="block md:hidden  py-3 relative">
-            <h2 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-2xl font-bold flex lg:gap-4 gap-2 text-gray-800 items-center ">
+            <h2
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-2xl font-bold flex lg:gap-4 gap-2 text-gray-800 items-center "
+            >
               <img className="w-4 h-4 mt-1" src={menu} alt="" />
               AlgoZenith
             </h2>
 
-        
             {(isMobileMenuOpen || window.innerWidth >= 768) && (
               <ul className="space-y-4 w-[100vw] mt-4 border-[1.5px] rounded-lg  transition-all duration-300 -left-1 z-10 border-black/30 px-8  absolute bg-white py-5 text-gray-700">
                 <li
